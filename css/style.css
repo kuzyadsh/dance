@@ -1,0 +1,267 @@
+.shapka{
+	background: #C4C4C4;
+}
+
+.logo_img{
+	width:70px;
+	margin-left: 200px;
+}
+.container{
+	max-width:1918px ;
+	margin: 0 auto;
+}
+.container_header{
+display: flex;
+justify-content: center;
+}
+.nav{
+	margin: auto 0;
+}
+.nav_list{
+display: flex;
+}
+.nav_item{
+	list-style: none;
+	margin-right: 25px;
+	font-family: 'Reenie Beanie';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 164.06%;
+/* identical to box height, or 33px */
+
+letter-spacing: 0.1em;
+
+color: #000000;
+
+}
+.nav_link{
+	font-family: 'Reenie Beanie';
+font-style: normal;
+font-weight: 500px;
+font-size: 12px;
+line-height: 164.06%;
+/* identical to box height, or 33px */
+
+letter-spacing: 0.1em;
+
+color: #000000;
+text-decoration: none;
+}
+
+/* home 2-й раздел сайта  */
+.home{
+background: #C4C4C4;
+padding-bottom: 170px;	
+}
+.container_home{
+	display: flex;
+	justify-content: center;
+}
+.home_image{
+	width: 294px;
+height: 200px;
+align-self: center;
+margin-right: 120px;
+}
+.home_text{
+	width: 500px;
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+
+color: #727272;
+
+}
+.home_title{
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 79px;
+
+color: #000000;
+}
+.home_button{
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 164.06%;
+/* or 23px */
+
+text-align: center;
+letter-spacing: 0.1em;
+
+color: rgba(0, 0, 0, 0.75);
+
+background: rgba(233, 221, 60, 0.9);
+border-radius: 15px;
+width: 195px;
+}
+.image_about{
+	width: 300px;
+}
+
+
+/*-------вторая секция ABOUT--------*/
+
+
+.about_h2{
+	text-align: center;
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 38px;
+text-align: center;
+
+color: #000000;
+
+}
+.about_bottom{
+	display: flex;
+	justify-content: center;
+
+}
+.offers{
+	height: 330px;
+	width: 420px;
+	background-color:#E9DF4E ;
+	border-radius:30px ;
+	z-index: 2;
+	}
+.offers_header{
+    margin-left: 40px;
+    font-family: 'Roboto';
+}
+.offers_list{
+	margin-left: 3px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+
+color: #000000;
+}
+.image{
+	height: 330px;
+	margin-left: -50px;
+	z-index: 1;
+}
+.image_about{
+	border-radius: 30px;
+width: 500px;
+height: 330px;
+left: calc(50% - 798px/2 + 99px);
+top: 850px;
+
+background: url(sSh8KK_EmyY.jpg);
+}
+.video{
+background: #C4C4C4;
+}
+.video_header{
+font-family: 'Roboto';
+text-align: center;
+font-weight: 500;
+font-size: 32px;
+line-height: 38px;
+}
+.video_text{
+font-family: 'Roboto';
+text-align: center;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+
+color: #727272;
+}
+.video_youtube{
+max-width: 1100px;
+margin: 0 auto;
+}
+.video{
+padding-bottom: 80px;
+padding-top: 20px;
+}
+
+.price_header{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 38px;
+text-align: center;
+}
+
+	
+
+.price_item{
+list-style: none;	
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 38px;
+padding-right: auto;
+width: 485px;
+text-align: center;
+/* identical to box height */
+
+
+}
+.item_style{
+	list-style: none;
+	padding-top: 10px;
+}
+.one_list{
+	list-style: none;
+	padding: 0;
+	padding-top: 10px;
+	
+}
+.price_title{
+padding: 40px 130px;
+	background: #E9DF4E;
+margin: 0;
+text-align: center;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 38px;
+width: 485px;
+}
+.subscription_list{
+	padding: 0;
+}
+.style_list{
+	padding: 0;
+	margin-left: 30px;
+	
+}
+.price_list{
+	padding: 0;
+	padding-top: 10px;
+	list-style: none;
+	margin-left: 30px;
+	
+}
+.price_table{
+	border: 6px  solid yellow;
+display: flex;
+	padding: 0px;
+	justify-content: space-around;
+	margin-top: 0px;
+	
+}
+.yellow{
+	background: #E9DF4E;
+display: flex;
+justify-content: space-around;
+}
