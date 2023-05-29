@@ -5,7 +5,25 @@
 .logo_img{
 	width:70px;
 	margin-left: 200px;
+
+
+
 }
+.burger{
+	background: transparent;
+	border: none;
+	display: none;
+}
+
+
+.burger_line{
+background: black;
+width: 80px;
+height: 10px;
+margin-bottom: 10px;
+}
+
+
 .container{
 	max-width:1918px ;
 	margin: 0 auto;
@@ -44,6 +62,8 @@ line-height: 164.06%;
 /* identical to box height, or 33px */
 
 letter-spacing: 0.1em;
+
+
 
 color: #000000;
 text-decoration: none;
@@ -264,4 +284,87 @@ display: flex;
 	background: #E9DF4E;
 display: flex;
 justify-content: space-around;
+}
+.nav_link:hover{
+	color: #E9DF4E;
+
+}
+/*адаптивная верстка для планшета*/
+
+@media (max-width:834px){
+
+.burger{
+	display: block;
+}
+.nav{
+	display: none;
+}
+.container_header{
+justify-content: space-between;
+}
+	
+	.logo_img{
+		margin-left: 0px;
+	}
+.container{
+	max-width: 630px;
+}
+.container_home{
+flex-direction: column;	
+}
+
+.home_content{
+	text-align: center;
+}
+.home_image{
+	
+	max-width: 630px;
+	margin-right: 80px;
+}
+.home_text{
+margin-right: 0px;
+margin: 0 auto;
+margin-bottom: 20px;
+}
+
+
+.home_title{
+	text-align: center;
+margin: 0 auto;
+max-width: 630px;
+font-size: 40px;
+}
+.home_content{
+	margin: 0 auto;
+}
+ .home_text{
+ 	max-width: 630px;
+ 	margin: 0 auto;
+ }
+ .about{
+ 	margin-bottom: 60px;
+ }
+ .offers_list{
+ 	font-size: 14px;
+ }
+ .offers_header{
+ 	font-size: 17px;
+ }
+ .video_iframe{
+height: 400px;
+ }
+ .price_title{
+ 	padding-left: 5px;
+ 	padding-right: 5px;
+ 	font-size: 28px;
+ }
+ .item_style{
+ 	font-size: 20px;
+ }
+ .price_list{
+ 	font-size: 20px;
+ }
+ .one_list{
+ 	font-size: 20px;
+ }
 }

@@ -16,20 +16,27 @@
 	<h1 class="logo"><img class="logo_img" src="img/logo.png"></h1>
 	<nav class="nav">
 		<ul class="nav_list">
-			<li class="nav_item"><a href="#" class="nav_link">ГЛАВНАЯ</a></li>
-			<li class="nav_item"><a href="#" class="nav_link">О СТУДИИ</a></li>
-			<li class="nav_item"><a href="#" class="nav_link">СТИЛИ</a></li>
-			<li class="nav_item"><a href="#" class="nav_link">ЦЕНА</a></li>
+			<li class="nav_item"><a href="#home" class="nav_link">ГЛАВНАЯ</a></li>
+			<li class="nav_item"><a href="#about" class="nav_link">О СТУДИИ</a></li>
+			<li class="nav_item"><a href="#video" class="nav_link">СТИЛИ</a></li>
+			<li class="nav_item"><a href="#price" class="nav_link">ЦЕНА</a></li>
 			<li class="nav_item"><a href="#" class="nav_link">КОНТАКТЫ</a></li>
 		</ul>
 
 	</nav>
+	<button class="burger">
+		<div class="burger_line"></div>
+		<div class="burger_line"></div>
+		<div class="burger_line"></div>
+	</button>
+
+
 	</div>
 </header>
 
-<main class="main">
-	<section class="home">
-		<div class="conteiner container_home">
+<main  class="main">
+	<section id="home" class="home">
+		<div class="conteiner container_home"> 
 			<img src="img/home.png" class="home_image">
 			<div class="home_content">
 				<h2 class="home_title">Студия танца Voltage</h2>
@@ -39,7 +46,7 @@
 			
 		</div>
 	</section>
-	<section class="about">
+	<section id="about" class="about">
 		<div class="container">
 			<div class="about_top">
 				<h2 class="about_h2">Студия танца в г. Луховицы</h2>
@@ -66,20 +73,20 @@
 
 <!-- для блока с видео -->
 
-	<section class="video">
+	<section id="video" class="video">
 		<div class="container_video container">
 		<h2 class="video_header">Стили</h2>
 		<p class="video_text">В этом небольшом видео вы можете познакомиться со стилями нашей студии</p>
 		
 		<div class="video_youtube">
-		<iframe width="100%" ; height= "600px"; src="https://www.youtube.com/embed/1Za9c6sexQ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+		<iframe class="video_iframe" width="100%" ; height= "600px"; src="https://www.youtube.com/embed/1Za9c6sexQ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 		</div>
 		
 		</div>
     </section>
 
 
-    <section class="price">
+    <section id="price" class="price">
     	<div class="container container_price">
     		<h2 class="price_header">Стоимость посещения разных направлений</h2>
     		<div class="yellow">
